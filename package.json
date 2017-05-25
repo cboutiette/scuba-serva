@@ -1,0 +1,23 @@
+{
+  "name": "scuba-serva",
+  "version": "1.0.0",
+  "description": "This project is the start of a scuba app that will help with logging dives, planning, and new TBD applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "alive",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "scuba"
+  ],
+  "author": "Chris Boutiette",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2"
+  }
+}
